@@ -9,7 +9,7 @@ version <- "0.12.4"
 dest_dir <- find_package_root_file("inst/www/shared/selectize")
 tag <- paste0("v", version)
 dest_file <- file.path(tempdir(), paste0("selectize.js-", version, ".zip"))
-url <- sprintf("https://github.com/selectize/selectize.js/archive/%s.zip", tag)
+url <- sprintf("https://github.com/geocaruso/selectize.js/archive/%s.zip", tag)
 
 download.file(url, dest_file)
 unzipped <- tempdir()
